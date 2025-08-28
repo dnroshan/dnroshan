@@ -1,3 +1,35 @@
-Coming soon
-
-by Dilnavas Roshan
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Placid</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=Playwrite+CA:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="full">
+        <div id="header">
+            <h1 id="title">Placid</h1>
+            <a href="javascript:void(0)" id="nav-menu-button">
+                <img src="burger.svg" style="width:60%" onclick="toggleMenu()"></img>
+            </a>
+            <div id="nav-bar">
+                <a class="nav-link" href=#>Home</a>
+                <a class="nav-link" href=#>Projects</a>
+                <a class="nav-link" href=#>Blog</a>
+                <a class="nav-link" href=#>About</a>
+            </div>
+        </div>
+        <div id="content">
+        </div>
+        <div id="footer">&copy; Dilnavas Roshan</div>
+    </div>
+</body>
+<script>
+    const navMenu = document.getElementById('nav-bar');
+    function toggleMenu() {
+        navMenu.classList.toggle('open');
+    }
+</script>
+</html>
