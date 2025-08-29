@@ -1,5 +1,7 @@
 body {
-    background-color: #37353E;
+    font-size: 18px;
+    background-image: url("background-tile.svg");
+    background-size: cover;
 }
 
 #full {
@@ -7,12 +9,13 @@ body {
     margin-right: 20%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 15px;
+    border: 1px groove #FFF2EF;
     overflow: clip;
 }
 
 #header {
     position: relative;
-    background-color: #594545;
+    background-color: #B9375D;
     width: 100%;
     margin: auto;
 }
@@ -21,15 +24,17 @@ body {
     margin: 0;
     padding: 10px;
     color: white;
-    font-family: "Neonderthaw", cursive;
-    font-size: 80px;
+    font-family: Monospace;
+    font-weight: lighter;
+    font-size: 60px;
+    text-shadow: 2px 2px 8px #000000;
 }
 
 #nav-bar {
     display: flex;
     flex-direction: row;
     margin-bottom: 0;
-    background-color: #815B5B;
+    background-color: #124170;
     overflow: hidden;
 }
 
@@ -37,12 +42,12 @@ body {
     text-decoration: none;
     color: white;
     padding: 10px;
-    font-family: tahoma;
+    font-family: Monospace;
     font-size: 20px;
 }
 
 .nav-link:hover {
-    background-color: #124170;;
+    background-color: #5D688A;
 }
 
 #nav-menu-button {
@@ -59,11 +64,11 @@ body {
 }
 
 #footer {
-    background-color: #594545;
+    background-color: #B9375D;
     color: white;
     padding: 10px;
     text-align: center;
-    font-family: tahoma;
+    font-family: Monospace;
 }
 
 
