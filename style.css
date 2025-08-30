@@ -1,8 +1,5 @@
 body {
     font-size: 18px;
-    // background-color: gray;
-    // background-image: url("background-tile.svg");
-    // background-size: cover;
     --s: 200px; /* control the size*/
     --c1: #1d1d1d;
     --c2: #4e4f51;
@@ -92,12 +89,12 @@ body {
 
     #nav-bar {
         flex-direction: column;
-        height: 0;
-        transition: height 0.5s ease-in-out;
+        max-height: 10px;
+        transition: max-height 0.5s ease-in-out;
     }
 
     #nav-bar.open {
-        height: 200px;
+        max-height: 200px;
     }
 
     #nav-menu-button {
